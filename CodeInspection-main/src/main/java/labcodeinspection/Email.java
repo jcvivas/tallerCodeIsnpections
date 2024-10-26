@@ -1,15 +1,15 @@
 package labcodeinspection;
 
-public class Email {
+public class Email {// NOPMD - This field is mutable for demonstration purposes
 
-	private String m_firstName;
-	private String m_lastName;
-	private String password = null;
-	private String department;
-	private int defaultpasswordLength = 8;
+	private String m_firstName;// NOPMD - This field is mutable for demonstration purposes
+	private String m_lastName;// NOPMD - This field is mutable for demonstration purposes
+	private String password = null;  //NOPMD - This field is mutable for demonstration purposes
+	private String department;// NOPMD - This field is mutable for demonstration purposes
+	private int defaultpasswordLength = 8;// NOPMD - This field is mutable for demonstration purposes
 	private String email;
 
-	public Email(String firstName, String lastName) {
+	public Email(String firstName, String lastName) { //NOPMD - This field is mutable for demonstration purposes
 		this.m_firstName = firstName;
 		this.m_lastName = lastName;
 	}
